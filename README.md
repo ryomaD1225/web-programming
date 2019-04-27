@@ -1,9 +1,23 @@
-web meeting app 
+NS Web English
 ====
 
 Overview
+web RTC を利用したWebチャットアプリ。
 
-## Description(環境構築)
+## Description
+・ Javascript, HTML, CSS
+・ local server using Python
+・ jquery
+https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+
+・ Glottologist
+https://glottologist.js.org/
+
+・ skyway javascript sdk 
+https://github.com/skyway/skyway-js-sdk
+
+・ Firebase Realtime Database
+https://firebase.google.com/
 
 
 ## Demo
@@ -11,17 +25,23 @@ Overview
 
 
 ## Requirement
+mac book pro or any of mac pc
 
 ## Usage
+your shown peerid required to start makeing phone call.
 
-## Install
+1, tell your peer id to the other person you would like to connect call.
+2, input peer id being told from the other side.
+3, push the red button. 
 
-## Contribution
+## References
+https://webrtc.ecl.ntt.com/js-tutorial.html
+https://firebase.google.com/docs/database/web/start?hl=ja
+https://glottologist.js.org/
+
 
 ## Licence
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-## Author
 
-[tcnksm](https://github.com/tcnksm)
