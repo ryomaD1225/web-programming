@@ -1,0 +1,185 @@
+/* normalize */
+body { margin: 0; }
+
+/* global styles */
+video {
+  background-color: #111;
+  width: 100%;
+
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+
+}
+
+.note {
+  text-align: center;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+}
+
+/* p2p-media styles */
+.p2p-media {
+  display: flex;
+  align-items: center;
+  /* こいつを消せば横になる */
+  flex-direction: column;
+}
+
+.p2p-media .remote-stream {
+  width: 80%;
+  height: 80%;
+  display: inline-block; 
+}
+
+.p2p-media .local-stream {
+  width: 80%;
+  display: inline-block; 
+}
+
+/* p2p-data styles */
+.p2p-data {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  margin: 0 8px;
+}
+
+.p2p-data .messages {
+  background-color: #eee;
+  min-height: 100px;
+  padding: 8px;
+  margin-top: 0;
+}
+
+/* room */
+.room {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  gap: 8px;
+  margin: 0 8px;
+}
+
+.room .remote-streams {
+  background-color: #f6fbff;
+}
+
+.room .messages {
+  background-color: #eee;
+  min-height: 100px;
+  padding: 8px;
+  margin-top: 0;
+}
+
+/* broadcast */
+.broadcast {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.broadcast .broadcast-stream {
+  width: 50%;
+}
+
+
+/* room-chat用のcssファイル */
+.name{
+  font-size: 10px;
+}
+.text{
+  font-size: 16px;
+}
+.msg_main{
+  display: flex;
+  padding: 0 0 0 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+.msg_left{
+  display: flex;
+  align-items: center;
+}
+.msg_right{
+  display: flex;
+  margin: 0 15px 0 0;
+}
+.icon{
+  border-radius: 50%;
+}
+.name{
+  font-size: 12px;
+  opacity: 0.4px;
+}
+.msg{
+  padding: 0 5px 0 5px;
+}
+.text{
+  font-size: 16px;
+  font-weight: lighter;
+  border-radius: 10px;
+  padding: 5px 5px 5px 5px;
+}
+#output {
+  width: 300px;
+  /* 追記 */
+  height: 600px;
+  overflow:auto;
+}
+
+.float_test {
+  float:  right;   /* 回り込み指定 */
+}
+
+.username{
+  display: inline;
+  height: 20px;
+  width: 350px;
+  margin-top: 15px;
+}
+
+
+
+.peerId{
+  display:inline-block;
+  margin-right: 30px;
+}
+
+.remote_peerId{
+  height: 20px;
+  width: 300px;
+}
+
+.call{
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #5e7fca;
+}
+
+
+
+.close{
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(25deg, #F13F79, #FFC778);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #5e7fca;
+}
+
+.test{
+  display: flex;
+}

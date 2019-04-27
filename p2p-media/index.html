@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NS Web English</title>
+    <link rel="stylesheet" href="../_shared/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading" id="h1">NS Web English</h1>
+      <div class="float_test" id="output" data-simplebar></div>
+        <div class="p2p-media">
+          <div class="remote-stream">
+            <video id="js-remote-stream"></video>
+          </div>
+        <div class="local-stream">
+          <video id="js-local-stream"></video>
+        </div>
+      </div>
+
+      <div class="test">
+          <p id="join-room" class="peerId">Your ID: <span id="js-local-id"></span></p>
+          <input type="text" placeholder="Your rname" id="username" class="username">
+      </div>
+      
+
+      <input type="text" placeholder="相手の Peer ID" id="js-remote-id" class="remote_peerId">
+      <button class="call" id="js-call-trigger">電話する</button>
+      <button class="close" id="js-close-trigger">電話を切る</button>
+    </div>
+    <script src="https://unpkg.com/glottologist"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.webrtc.ecl.ntt.com/skyway-latest.js"></script>
+    <script src="../_shared/key.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+    <script src="../js/firebase.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+   
+    function getPrimeNumber(num){
+	    var flg = 0;
+            for(var i=2; i<=num -1; i++){
+                if(num % i === 0){
+                    flg = i;
+                    break;
+                }
+            }
+            
+            if(flg === 0){ return true; } else {
+                return false;
+            }
+}
+ 
+ 
+
+for(var i=2; i<=10000; i++){
+	if(getPrimeNumber(i) === true){
+		document.write( i + "<br>\n" );
+	}
+}
+
+    
+    </script>
+</body>
+</html>
