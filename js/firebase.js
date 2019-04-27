@@ -1,6 +1,6 @@
 //============
 var config = {
-    apiKey: "AIzaSyAeSGiT-IglnQ5NtWjbaEWPRgSBcv_re6o",
+    apiKey: "AIzaS**************baEWPRgSBcv_re6o",
     authDomain: "web-meeting-f22dc.firebaseapp.com",
     databaseURL: "https://web-meeting-f22dc.firebaseio.com",
     projectId: "web-meeting-f22dc",
